@@ -29,10 +29,14 @@ function getColorCode() {
         code = code + makeColorCode[Math.floor(Math.random() * 16)];
     }
     return code;
-}
+};
 
 function color() {
     return getColorCode();
 }
-const button = document.getElementById('btn');
-button.addEventListener("click",);
+
+const buttons = document.querySelectorAll('button');
+
+for (i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function () { alert("Hello World!"); });
+}

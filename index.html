@@ -14,7 +14,12 @@
         <h1>etch-a-sketch</h1>
         <div class="outer">
             <div class="controls">
-                <button id="btn">Rainbow</button>
+                <input type="color" id="color" />
+                <button id="col-btn" class="checked">colour</button>
+                <button id="rbw-btn">rainbow</button>
+                <button id="ers-btn">eraser</button>
+                <button id="clr-btn">clear</button>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
             </div>
             <div class="game"></div>
             <div class="empty">Empty</div>
