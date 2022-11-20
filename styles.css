@@ -54,7 +54,7 @@ main {
 button {
     background-color: transparent;
     border-radius: 10px;
-    border: 2px solid #333;
+    border: 1px solid #333;
     text-align: center;
     font-size: 18px;
     padding: 10px;
@@ -74,4 +74,14 @@ button:hover {
 
 .empty {
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#new-grid {
+    border-color: gold;
+    color: gold;
+    background-color: rgb(96, 96, 96);
 }
